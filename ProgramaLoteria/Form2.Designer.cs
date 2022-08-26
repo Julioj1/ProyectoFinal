@@ -52,7 +52,11 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtrepetido = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // label4
@@ -103,7 +107,7 @@
             // 
             this.txtganada3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtganada3.Location = new System.Drawing.Point(664, 374);
-            this.txtganada3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtganada3.Margin = new System.Windows.Forms.Padding(4);
             this.txtganada3.Multiline = true;
             this.txtganada3.Name = "txtganada3";
             this.txtganada3.ReadOnly = true;
@@ -114,7 +118,7 @@
             // 
             this.txtganada2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtganada2.Location = new System.Drawing.Point(344, 374);
-            this.txtganada2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtganada2.Margin = new System.Windows.Forms.Padding(4);
             this.txtganada2.Multiline = true;
             this.txtganada2.Name = "txtganada2";
             this.txtganada2.ReadOnly = true;
@@ -125,7 +129,7 @@
             // 
             this.txtganada1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtganada1.Location = new System.Drawing.Point(29, 374);
-            this.txtganada1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtganada1.Margin = new System.Windows.Forms.Padding(4);
             this.txtganada1.Multiline = true;
             this.txtganada1.Name = "txtganada1";
             this.txtganada1.ReadOnly = true;
@@ -136,7 +140,7 @@
             // 
             this.txtresultado3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtresultado3.Location = new System.Drawing.Point(664, 200);
-            this.txtresultado3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtresultado3.Margin = new System.Windows.Forms.Padding(4);
             this.txtresultado3.Multiline = true;
             this.txtresultado3.Name = "txtresultado3";
             this.txtresultado3.ReadOnly = true;
@@ -147,7 +151,7 @@
             // 
             this.txtresultado2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtresultado2.Location = new System.Drawing.Point(207, 286);
-            this.txtresultado2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtresultado2.Margin = new System.Windows.Forms.Padding(4);
             this.txtresultado2.Multiline = true;
             this.txtresultado2.Name = "txtresultado2";
             this.txtresultado2.ReadOnly = true;
@@ -158,7 +162,7 @@
             // 
             this.txtresultado1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtresultado1.Location = new System.Drawing.Point(207, 203);
-            this.txtresultado1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtresultado1.Margin = new System.Windows.Forms.Padding(4);
             this.txtresultado1.Multiline = true;
             this.txtresultado1.Name = "txtresultado1";
             this.txtresultado1.ReadOnly = true;
@@ -180,7 +184,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(373, 643);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(208, 60);
             this.button2.TabIndex = 29;
@@ -192,7 +196,7 @@
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(12, 711);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(108, 41);
             this.button3.TabIndex = 30;
@@ -204,7 +208,7 @@
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(98, 643);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(208, 60);
             this.button4.TabIndex = 31;
@@ -227,7 +231,7 @@
             // 
             this.txttripleta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txttripleta.Location = new System.Drawing.Point(353, 562);
-            this.txttripleta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txttripleta.Margin = new System.Windows.Forms.Padding(4);
             this.txttripleta.Multiline = true;
             this.txttripleta.Name = "txttripleta";
             this.txttripleta.ReadOnly = true;
@@ -242,8 +246,8 @@
             this.Column2,
             this.Column3,
             this.Column4});
-            this.dataGridView1.Location = new System.Drawing.Point(943, 86);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Location = new System.Drawing.Point(877, 86);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(587, 578);
@@ -283,7 +287,7 @@
             // 
             this.txtrepetido.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtrepetido.Location = new System.Drawing.Point(735, 628);
-            this.txtrepetido.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtrepetido.Margin = new System.Windows.Forms.Padding(4);
             this.txtrepetido.Multiline = true;
             this.txtrepetido.Name = "txtrepetido";
             this.txtrepetido.ReadOnly = true;
@@ -301,12 +305,40 @@
             this.label11.TabIndex = 40;
             this.label11.Text = "Numero mas repetido";
             // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column5,
+            this.Column6});
+            this.dataGridView2.Location = new System.Drawing.Point(1504, 86);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.RowTemplate.Height = 24;
+            this.dataGridView2.Size = new System.Drawing.Size(388, 442);
+            this.dataGridView2.TabIndex = 41;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Resultado";
+            this.Column5.MinimumWidth = 6;
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 125;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Numerorepetido";
+            this.Column6.MinimumWidth = 6;
+            this.Column6.Name = "Column6";
+            this.Column6.Width = 125;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1676, 767);
+            this.ClientSize = new System.Drawing.Size(1924, 767);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtrepetido);
             this.Controls.Add(this.dataGridView1);
@@ -326,11 +358,12 @@
             this.Controls.Add(this.txtresultado3);
             this.Controls.Add(this.txtresultado2);
             this.Controls.Add(this.txtresultado1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form2";
             this.Text = "Loteria";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -360,5 +393,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         public System.Windows.Forms.TextBox txtrepetido;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
     }
 }

@@ -108,13 +108,13 @@ namespace ProgramaLoteria
 
         private void button4_Click(object sender, EventArgs e)
         {
-           
+
 
             int numero1;
             int numero2;
             int numero3;
             int dinero;
-            
+
             txtganada1.Text = "";
             txtganada2.Text = "";
             txtganada3.Text = "";
@@ -160,9 +160,9 @@ namespace ProgramaLoteria
 
 
             var dg = dataGridView1;
-            
+
             dg.Rows.Add(txtresultado1.Text, txtresultado2.Text, txtresultado3.Text, cx);
-          
+
 
         }
 
@@ -178,24 +178,56 @@ namespace ProgramaLoteria
 
         private void dataGridView1_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
         {
-            int count = dataGridView1.Rows.Count;
+            var dg = dataGridView1;
+            int filas = dg.Rows.Count;
+            int cont = 0;
+            int valor;
 
-
-            for (int i = 0; i <= count - 3; i++)
+            try
             {
 
-                if (dataGridView1.Rows[i].Cells[0].Value.ToString() == dataGridView1.Rows[count - 2].Cells[0].Value.ToString())
+
+                for (int i = 0; i <= filas; i++)
                 {
+                    valor = Convert.ToInt32(dg.Rows[i].Cells[0].Value);
+                    for (int j = 0; j <= filas + 1; j++)
+                    {
 
-                    txtrepetido.Text = dataGridView1.Rows[i].Cells[0].Value.ToString();
+                        if (valor == Convert.ToInt32(dg.Rows[j].Cells[0].Value))
+                        {
+                            cont++;
+                            txtrepetido.Text = valor.ToString();
+                            dataGridView2.Rows.Add(txtrepetido.Text, cont);
+                        }
+                        else if (cont > 1)
+                        {
+                            txtrepetido.Text = valor.ToString();
+                            dataGridView2.Rows.Add(txtrepetido.Text, cont);
 
-                    
+
+
+
+
+
+
+
+                        }
+
+
+
+                    }
+
+
+
+
+
                 }
-                
-                
+            }
+            catch
+            {
+
             }
         }
     }
 
-    
 }
